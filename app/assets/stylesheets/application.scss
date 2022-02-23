@@ -11,3 +11,12 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+// Global Styling
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
