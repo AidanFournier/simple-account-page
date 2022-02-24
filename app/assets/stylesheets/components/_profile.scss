@@ -1,0 +1,19 @@
+.profile-container {
+  background: white;
+  display: flex;
+  align-items: center;
+  margin: 5%;
+  padding: 5%;
+  border: 0.5rem outset pink;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.full-name {
+  padding-bottom: 3%;
+}

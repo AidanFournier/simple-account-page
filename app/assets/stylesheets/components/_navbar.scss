@@ -4,7 +4,7 @@ nav {
 }
 
 .logo {
-  min-height: 75px;
+  min-height: 60px;
 }
 .nav-header {
   display: flex;
@@ -25,7 +25,7 @@ nav {
   transform: rotate(90deg);
 }
 .logo {
-  height: 40px;
+  height: 30px;
 }
 .links a {
   color: hsl(209, 34%, 30%);
@@ -59,7 +59,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1% 2%;
   }
   .nav-header {
     padding: 0;
@@ -91,16 +91,3 @@ nav {
     color: hsl(205, 90%, 76%);
   }
 }
-
-// .navbar-lewagon {
-//   justify-content: space-between;
-//   background: white;
-// }
-
-// .navbar-lewagon .navbar-collapse {
-//   flex-grow: 0;
-// }
-
-// .navbar-lewagon .navbar-brand img {
-//   width: 40px;
-// }

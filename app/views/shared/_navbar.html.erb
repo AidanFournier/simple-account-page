@@ -1,30 +1,21 @@
 <nav>
-      <div class="nav-center">
-        <!-- nav header -->
-        <div class="nav-header">
-          <%= link_to root_path do %>
-            <% image_tag "favicon.ico", class: "logo" %>
-          <% end %>
-          <button class="nav-toggle">
-            <i class="fas fa-bars"></i>
-          </button>
-        </div>
-        <!-- links -->
-        <ul class="links">
-          <li>
-            <a href="index.html">home</a>
-          </li>
-          <li>
-            <a href="about.html">profile</a>
-          </li>
-        </ul>
-        <ul class="avatar-thumbnail">
-          <li>
-            <%= image_tag current_user.gravatar_url, :class => "gravatar" %>
-          </li>
-        </ul>
-      </div>
-    </nav>
+  <div class="nav-center">
+    <!-- nav header -->
+    <div class="nav-header">
+      <%= link_to root_path do %>
+        <% image_tag "favicon.ico", class: "logo"%>
+      <% end %>
+      <button class="nav-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+
+    <span>Profile</span>
+    <div>
+      <%= image_tag current_user.gravatar_url, class: "gravatar avatar" %>
+    </div>
+  </div>
+</nav>
 
 
 
