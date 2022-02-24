@@ -1,10 +1,13 @@
 .profile-container {
+  height: auto;
   background: white;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin: 5%;
   padding: 5%;
-  border: 0.5rem outset pink;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .profile-info {

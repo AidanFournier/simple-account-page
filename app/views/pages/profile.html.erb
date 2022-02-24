@@ -3,12 +3,15 @@
         <%= image_tag current_user.gravatar_url, class: "gravatar avatar-large" %>
     </div>
     <div class="profile-info">
+        <h4>Name</h4>
         <div class="full-name">
-            <%= current_user.first_name %>
-            <%= current_user.last_name %>
+            <p><%= current_user.first_name %>
+            <%= current_user.last_name %></p>
         </div>
         <div>
-            <%= current_user.email %>
+            <h4>Email address</h4>
+            <p><%= current_user.email %></p>
         </div>
+        <button class="btn-large">Edit Settings</button>
     </div>
 </div>
